@@ -179,7 +179,7 @@ HydroBase::initial_hydro	= "PizzaTOV"
 
 # File describing a one-parametric EOS in Pizza format. Used only for initial data.
 
-PizzaIDBase::eos_file		= "/home/hadrons/kurz/EOS/QxP/QxPgreater1.pizza"
+PizzaIDBase::eos_file		= "/home/hadrons/kurz/EOS/QxP/QxP.pizza"
 
 # TOV central rest mass density in kg/m^3
 PizzaTOV::star_crmd                                         = 2.0e+17 #crmd - 0.7e18 test
@@ -211,7 +211,7 @@ THC_Core::atmo_tolerance		= 0.0
 THC_Core::atmo_I_know_what_I_am_doing		= "yes"
 
 EOS_Thermal::evol_eos_name                                  = "Hybrid"
-EOS_Thermal_Hybrid::eos_cold_file                           = "/home/hadrons/kurz/EOS/QxP/QxPgreater1.pizza"
+EOS_Thermal_Hybrid::eos_cold_file                           = "/home/hadrons/kurz/EOS/QxP/QxP.pizza"
 EOS_Thermal_Hybrid::gamma_thermal	= 2.0
 EOS_Thermal_Hybrid::eps_max             = 10.0
 
